@@ -1,9 +1,9 @@
-project(etape1)
+project(etape2)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_HOME_DIRECTORY})
 
 add_executable (
-	test_functor_type
+	test_function
 	main.cpp
-	FunctionSignature.hpp
+	Function.hpp
 )
